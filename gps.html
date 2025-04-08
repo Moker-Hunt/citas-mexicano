@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todo lo que necesitas saber sobre el GPS: cómo funciona, aplicaciones prácticas en México y tendencias futuras de esta tecnología de navegación.">
+    <title>GPS: la tecnología que revolucionó la navegación y localización</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+</head>
+<body>
+    <header id="site-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">citas-mexicano.com</a>
+            </div>
+            <nav id="main-nav">
+                <button id="menu-toggle" aria-label="Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="codigo.html">Código</a></li>
+                    <li><a href="transporte.html">Transporte</a></li>
+                    <li><a href="satelites.html">Satélites</a></li>
+                    <li><a href="gps.html" class="active">GPS</a></li>
+                    <li><a href="digital.html">Digital</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>GPS: la tecnología que revolucionó la navegación y localización</h1>
+                <p class="disclaimer">Este sitio web no es un sitio gubernamental oficial ni está afiliado con ninguna entidad gubernamental mexicana. La información proporcionada es meramente informativa.</p>
+                <div class="hero-image">
+                    <picture>
+                        <source media="(max-width: 400px)" srcset="img/400/gps-hero.webp">
+                        <source media="(max-width: 650px)" srcset="img/650/gps-hero.webp">
+                        <img src="img/900/gps-hero.webp" alt="Sistema de Posicionamiento Global (GPS)" loading="lazy">
+                    </picture>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container grid-layout">
+                <aside class="sidebar">
+                    <div class="table-of-contents">
+                        <h3>Contenido</h3>
+                        <ul>
+                            <li><a href="#que-es">¿Qué es el GPS y cómo surgió?</a></li>
+                            <li><a href="#conexion">Cómo se conectan los dispositivos con los satélites</a></li>
+                            <li><a href="#aplicaciones">Aplicaciones cotidianas del GPS</a></li>
+                            <li><a href="#transporte">Uso del GPS en automóviles y transporte público</a></li>
+                            <li><a href="#diferencias">Diferencias entre GPS, GLONASS y Galileo</a></li>
+                            <li><a href="#futuro">Futuro de la navegación con IA y sensores</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <article class="main-content">
+                    <section id="que-es" class="article-section">
+                        <h2>¿Qué es el GPS y cómo surgió?</h2>
+                        <p>El Sistema de Posicionamiento Global (GPS, por sus siglas en inglés) es una red de satélites que orbitan alrededor de la Tierra, permitiendo determinar la ubicación precisa de cualquier objeto o persona en la superficie terrestre. Este sistema revolucionario ha transformado la forma en que navegamos, viajamos y nos orientamos en el mundo.</p>
+                        
+                        <p>El GPS fue desarrollado originalmente por el Departamento de Defensa de los Estados Unidos en la década de 1970 con fines militares. Sin embargo, en los años 80, tras el derribo accidental de un avión comercial coreano que se desvió hacia el espacio aéreo soviético, el presidente Ronald Reagan autorizó el uso civil del GPS para prevenir futuros incidentes de navegación.</p>
+                        
+                        <p>Hoy en día, el GPS es un servicio público global que funciona las 24 horas del día, los 365 días del año, sin costos directos para los usuarios finales. Su impacto ha sido tan profundo que resulta difícil imaginar el mundo moderno sin esta tecnología.</p>
+                    </section>
+
+                    <section id="conexion" class="article-section">
+                        <h2>Cómo se conectan los dispositivos con los satélites</h2>
+                        <p>La magia del GPS radica en su capacidad para determinar ubicaciones precisas mediante un proceso llamado trilateración. Este método utiliza las señales de múltiples satélites para calcular la posición exacta de un receptor en la Tierra.</p>
+                        
+                        <h3>El sistema de satélites</h3>
+                        <p>El GPS completo consta de una constelación de al menos 24 satélites (actualmente hay más de 30 operativos) que orbitan a unos 20,200 kilómetros de altura. Estos satélites están distribuidos en seis planos orbitales diferentes, garantizando que al menos cuatro satélites sean visibles desde cualquier punto de la Tierra en todo momento.</p>
+                        
+                        <h3>El proceso de localización</h3>
+                        <p>Cuando enciendes un dispositivo con GPS, este comienza a buscar señales de los satélites visibles. Cada satélite transmite continuamente información sobre su posición exacta y la hora precisa según relojes atómicos a bordo. El receptor GPS en tu dispositivo capta estas señales y calcula la distancia a cada satélite basándose en el tiempo que tardó la señal en llegar.</p>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 400px)" srcset="img/400/gps-funcionamiento.webp">
+                                <source media="(max-width: 650px)" srcset="img/650/gps-funcionamiento.webp">
+                                <img src="img/900/gps-funcionamiento.webp" alt="Funcionamiento del sistema GPS" loading="lazy">
+                            </picture>
+                        </div>
+                    </section>
+
+                    <section id="aplicaciones" class="article-section">
+                        <h2>Aplicaciones cotidianas del GPS</h2>
+                        <p>El GPS se ha integrado profundamente en nuestra vida diaria, ofreciendo soluciones que van mucho más allá de la simple navegación. Estas son algunas de las aplicaciones más comunes:</p>
+                        
+                        <h3>Navegación personal</h3>
+                        <ul>
+                            <li>Aplicaciones de mapas en smartphones que nos guían paso a paso</li>
+                            <li>Dispositivos GPS dedicados para automóviles</li>
+                            <li>Planificación de rutas optimizadas para evitar tráfico</li>
+                            <li>Localización de servicios cercanos (restaurantes, gasolineras, hoteles)</li>
+                        </ul>
+                        
+                        <h3>Deportes y actividades al aire libre</h3>
+                        <ul>
+                            <li>Relojes deportivos que rastrean rutas de carrera, ciclismo o senderismo</li>
+                            <li>Aplicaciones para compartir rutas y desafíos con otros deportistas</li>
+                            <li>Geocaching: búsqueda de tesoros modernos usando coordenadas GPS</li>
+                            <li>Navegación en áreas remotas sin señal celular</li>
+                        </ul>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 400px)" srcset="img/400/gps-aplicaciones.webp">
+                                <source media="(max-width: 650px)" srcset="img/650/gps-aplicaciones.webp">
+                                <img src="img/900/gps-aplicaciones.webp" alt="Aplicaciones del GPS en México" loading="lazy">
+                            </picture>
+                        </div>
+                    </section>
+
+                    <section id="transporte" class="article-section">
+                        <h2>Uso del GPS en automóviles y transporte público</h2>
+                        <p>El sector del transporte ha sido uno de los más beneficiados por la tecnología GPS, transformando tanto la experiencia de los conductores particulares como la gestión de flotas comerciales y sistemas de transporte público.</p>
+                        
+                        <h3>Navegación en vehículos particulares</h3>
+                        <p>Los sistemas de navegación GPS integrados en automóviles o como dispositivos independientes ofrecen:</p>
+                        <ul>
+                            <li>Indicaciones de ruta paso a paso con instrucciones de voz</li>
+                            <li>Información sobre límites de velocidad y alertas de radares</li>
+                            <li>Desvíos automáticos basados en condiciones de tráfico en tiempo real</li>
+                            <li>Localización de puntos de interés como estacionamientos o gasolineras</li>
+                        </ul>
+                    </section>
+
+                    <section id="diferencias" class="article-section">
+                        <h2>Diferencias entre GPS, GLONASS y Galileo</h2>
+                        <p>Aunque el término "GPS" se usa comúnmente para referirse a cualquier sistema de navegación por satélite, existen varios sistemas globales desarrollados por diferentes países o regiones. Cada uno tiene características particulares que los diferencian:</p>
+                        
+                        <h3>GPS (Estados Unidos)</h3>
+                        <ul>
+                            <li>El sistema más antiguo y ampliamente utilizado</li>
+                            <li>Constelación de aproximadamente 31 satélites operativos</li>
+                            <li>Precisión típica de 3-5 metros para uso civil</li>
+                            <li>Cobertura global completa</li>
+                        </ul>
+                    </section>
+
+                    <section id="futuro" class="article-section">
+                        <h2>Futuro de la navegación con IA y sensores</h2>
+                        <p>La tecnología de posicionamiento global continúa evolucionando rápidamente, integrándose con otras tecnologías emergentes para ofrecer servicios cada vez más precisos, contextuales y útiles. Estas son algunas tendencias que definirán el futuro de la navegación:</p>
+                        
+                        <h3>Integración con inteligencia artificial</h3>
+                        <p>La combinación de GPS con sistemas de IA está creando experiencias de navegación más inteligentes:</p>
+                        <ul>
+                            <li>Predicción de rutas basada en patrones de movimiento personales</li>
+                            <li>Recomendaciones contextuales según preferencias, clima y horarios</li>
+                            <li>Asistentes de voz naturales que entienden consultas complejas</li>
+                            <li>Sistemas que aprenden de los hábitos del usuario para anticipar necesidades</li>
+                        </ul>
+                        <div class="image-container">
+                            <picture>
+                                <source media="(max-width: 400px)" srcset="img/400/gps-futuro.webp">
+                                <source media="(max-width: 650px)" srcset="img/650/gps-futuro.webp">
+                                <img src="img/900/gps-futuro.webp" alt="El futuro de la tecnología GPS" loading="lazy">
+                            </picture>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <a href="index.html">citas-mexicano.com</a>
+                    <p>Información clara y útil para trámites en México</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Páginas</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="codigo.html">Código</a></li>
+                        <li><a href="transporte.html">Transporte</a></li>
+                        <li><a href="satelites.html">Satélites</a></li>
+                        <li><a href="gps.html">GPS</a></li>
+                        <li><a href="digital.html">Digital</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a href="about.html">Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="terms.html">Términos de Uso</a></li>
+                        <li><a href="privacy.html">Política de Privacidad</a></li>
+                        <li><a href="cookies.html">Política de Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-disclaimer">
+                    <p>Este sitio web no es un sitio gubernamental oficial ni está afiliado con ninguna entidad gubernamental mexicana. La información proporcionada es meramente informativa.</p>
+                    <p>&copy; 2025 citas-mexicano.com - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-consent" class="cookie-consent">
+        <div class="cookie-content">
+            <p>Utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Al continuar navegando, aceptas nuestra <a href="cookies.html">Política de Cookies</a>, <a href="privacy.html">Política de Privacidad</a> y <a href="terms.html">Términos de Uso</a>.</p>
+            <button id="accept-cookies" class="btn-primary">Aceptar</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
